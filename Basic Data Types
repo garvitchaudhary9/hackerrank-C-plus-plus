@@ -1,0 +1,20 @@
+#include <iostream>
+#include <cstdio>
+#include <iomanip>
+using namespace std;
+
+int main() {
+
+    int x;
+    long y;
+    char a;
+    float z;
+    double k;
+    cin>>x>>y>>a>>z>>k;
+    cout<<x<<endl<<y<<endl<<a<<endl;
+    cout<< std::fixed<<std::setprecision(3)<<z<<endl;
+    cout<< std::fixed<<std::setprecision(9)<<k<<endl;
+
+    
+    return 0;
+}
